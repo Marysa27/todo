@@ -12,9 +12,9 @@ class Modelo:
         self.cursor.close()
         self.connection.close()
 
-    def query(self, query):
+   def query(self, query):
         self.abre_conexion()
-
+#hola
         try:
             self.cursor.execute(query)
             self.connection.commit()
